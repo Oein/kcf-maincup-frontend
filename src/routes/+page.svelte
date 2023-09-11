@@ -1,2 +1,10 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script lang="ts">
+	import { Container } from 'ui';
+	import ColorViewer from '@ui/ThemeProvider/ColorViewer.svelte';
+</script>
+
+<Container>
+	<h1>Welcome to Team.poi's svelte ui template!</h1>
+	<h2>Theme Viewer</h2>
+	<ColorViewer />
+</Container>

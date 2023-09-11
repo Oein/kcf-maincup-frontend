@@ -15,7 +15,6 @@
 	--Font-base: Pretendard Variable, Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto,
 		Helvetica Neue, Segoe UI, Apple SD Gothic Neo, Noto Sans KR, Malgun Gothic, 'Apple Color Emoji',
 		'Segoe UI Emoji', Segoe UI Symbol, sans-serif;
-	--COLORS-LINK: #3498db;
 }
 
 body {
@@ -33,30 +32,12 @@ thin {
 
 a {
 	text-decoration: none;
-	color: var(--COLORS-LINK);
+	color: #3498db;
 }
 
-.container {
-	padding-right: 15px;
-	padding-left: 15px;
-	margin-right: auto;
-	margin-left: auto;
-}
-
-@media (min-width: 768px) {
-	.container {
-		width: 750px;
-	}
-}
-
-@media (min-width: 992px) {
-	.container {
-		width: 970px;
-	}
-}
-
-@media (min-width: 1200px) {
-	.container {
-		width: 1170px;
-	}
+h1,
+h2,
+h3 {
+	margin: 0px;
+	padding: 0.7em 0px;
 }

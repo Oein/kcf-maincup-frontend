@@ -6,7 +6,9 @@ export default defineConfig({
 	plugins: [sveltekit()],
 	resolve: {
 		alias: {
-			'@': path.resolve('src/')
+			'@': path.resolve('src/'),
+			ui: path.resolve('./node_modules/@team.poi/svelteui/dist/index.js'),
+			'@ui': path.resolve('./node_modules/@team.poi/svelteui/dist/')
 		}
 	}
 });
