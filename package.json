@@ -12,8 +12,10 @@
 		"format": "prettier --plugin-search-dir . --write ."
 	},
 	"devDependencies": {
+		"@iconify/svelte": "^3.1.4",
 		"@sveltejs/adapter-auto": "^2.0.0",
 		"@sveltejs/kit": "^1.20.4",
+		"@types/crypto-js": "^4.1.3",
 		"@typescript-eslint/eslint-plugin": "^5.45.0",
 		"@typescript-eslint/parser": "^5.45.0",
 		"eslint": "^8.28.0",
@@ -21,6 +23,7 @@
 		"eslint-plugin-svelte": "^2.30.0",
 		"prettier": "^2.8.0",
 		"prettier-plugin-svelte": "^2.10.1",
+		"sass": "^1.69.5",
 		"svelte": "^4.0.5",
 		"svelte-check": "^3.4.3",
 		"tslib": "^2.4.1",
@@ -29,6 +32,24 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"@team.poi/svelteui": "^1.0.2"
+		"@bytemd/plugin-gfm": "^1.21.0",
+		"@milkdown/core": "^7.3.0",
+		"@milkdown/ctx": "^7.3.0",
+		"@milkdown/plugin-history": "^7.3.0",
+		"@milkdown/plugin-math": "^7.3.0",
+		"@milkdown/plugin-tooltip": "^7.3.0",
+		"@milkdown/preset-commonmark": "^7.3.0",
+		"@milkdown/preset-gfm": "^7.3.0",
+		"@milkdown/prose": "^7.3.0",
+		"@milkdown/theme-nord": "^7.3.0",
+		"@milkdown/transformer": "^7.3.0",
+		"@team.poi/svelteui": "^1.2.11",
+		"@tinymce/tinymce-svelte": "^1.0.1",
+		"bytemd": "^1.21.0",
+		"comci-api": "^1.0.3",
+		"crypto-js": "^4.2.0",
+		"jose": "^5.0.1",
+		"katex": "^0.16.9",
+		"svelte-french-toast": "^1.2.0"
 	}
 }

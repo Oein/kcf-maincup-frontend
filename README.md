@@ -1,38 +1,59 @@
-# create-svelte
+# 교내 지식정보 공유 SW 개발
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+## 스쿨24 ( School 24 )
 
-## Creating a project
+### 개발목적 : 교내에서 학생들이 친구들과 서로 모르는 교육 관련 지식에 관한 부분이나 수행평가등 친구들에게 도움을 받을수 있는 커뮤니티가 있으면 좋겠어서 만들었습니다.
 
-If you're seeing this, you've probably already done this step. Congrats!
+### 기대효과 : 학생들의 교육 평준화, 학생들이 가지고 있는 자신만의 꿀팁이나, 여러가지 지식들을 공유하므로써 여러 학생들의 친목을 도모할수 있음.
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+## 필요한 페이지
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+### ! 로그인
 
-## Developing
+- URL : `/auth/signin`
+- Desc : `로그인 기능 필요`
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+### ! 회원가입
 
-```bash
-npm run dev
+- URL : `/auth/signup`
+- Desc : `회원가입 기능 필요`
+- Additional : `나이스 인증 ㄱㄴ?`
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+### ! 메인페이지
 
-## Building
+- URL : `/`
+- Desc : `사이트 소개, 유저수, 글수, 사이트 목적 ( LIKE Comuze )`
 
-To create a production version of your app:
+### ! 글 목록 페이지
 
-```bash
-npm run build
-```
+- URL : `/community/list`
+- Desc : `학생들이 글의 목록을 볼수있고, 글을 열람할수 있다.`
 
-You can preview the production build with `npm run preview`.
+### ! 글 열람 페이지
 
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+- URL : `/community/p/[id]`
+- Desc : `학생들이 글을 눌렀을때 이동되는 페이지이다. 글을 볼수있고, 댓글 기능이 있다.댓글은 프사, 이름, 작성시간 있어야함`
+
+### ! 글 작성 페이지
+
+- URL : `/community/new`
+- Desc : `텍스트 에디터가 있고, 유저는 글을 작성하여 올릴수 있다. 사진첨부 가능`
+
+### 마이페이지
+
+- URL : `/mypage`
+- Desc : `내 정보를 볼수있고, 내 정보를 수정가능하다. 그리고 코뮤즈 처럼 자신이 작성한 글 볼수있어야함`
+
+# 가져와야 하는 정보
+
+## 유져
+
+- 이름
+- 나이
+- 학교
+- 프사
+- 작성한 글 리스트
+
+# 디지털 약자를 위한 SW 개발
+
+// TODO
